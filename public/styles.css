@@ -1,0 +1,50 @@
+body {
+    background-color: #df110a;
+    box-sizing: border-box;
+    font-family: 'Quicksand';
+}
+
+    .wrapper {
+        justify-content: center;
+        display: flex;
+    }
+    
+    .flex-outer {
+        max-width: 800px;
+    }
+
+    .header > h1 {
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    .header {
+        justify-content: center;
+        display: flex;
+    }
+
+    .search-form {
+        max-width: 400px;
+        margin: 50px auto;
+        font-family: 'Quicksand', sans-serif;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+      }
+
+    .suggestions li {
+        display: flexbox;
+    }
+
+    li {
+        margin: 5px;
+        padding: 10px;
+        max-width: 500px;
+        background: rgb(130, 125, 235);
+        background: linear-gradient(90deg, rgb(40, 73, 42) 0%, rgba(197, 236, 19, 0.897) 0%, rgba(146,237,255,1) 100%);
+    }
+
+    .name {
+        font-size: 35px;
+    }
